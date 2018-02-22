@@ -25,7 +25,7 @@ public class CityConnectionService {
 	@Value("${city.file}")
 	private String cityFile;
 	
-	List<String[]> directConnections =null;
+	private List<String[]> directConnections =null;
 	
 	private static final Logger logger =  LoggerFactory.getLogger(CityConnectionService.class);
 	
